@@ -1,5 +1,5 @@
 #!/bin/sh
-cat << EOF > ${DIR_TMP}/heroku.json
+cat << EOF > /vv.json
 {
     "inbounds": [{
         "port": ${PORT},
