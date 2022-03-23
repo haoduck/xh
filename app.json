@@ -1,7 +1,7 @@
 {
-    "name": "VjJSYXk=",
-    "description": "Deploy VjJSYXk= on Heroku.",
-    "keywords": ["VjJSYXk="],
+    "name": "hnrsrtrst",
+    "description": "hreharfgszfesg",
+    "keywords": ["agegesaaesg"],
     "env": {
         "ID": {
             "description": "UUID",
@@ -9,7 +9,7 @@
         },
         "AID": {
             "description": "AlterID",
-            "value": "64"
+            "value": "0"
         },
         "WSPATH": {
             "description": "WebSocket Path",
