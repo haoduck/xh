@@ -1,5 +1,5 @@
 #!/bin/sh
-cat << EOF > /vv.json
+cat << EOF > /vv
 {
     "inbounds": [{
         "port": ${PORT},
