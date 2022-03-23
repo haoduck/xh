@@ -17,43 +17,8 @@ cat << EOF > /vv
                 "path": "${WSPATH}"
             }
         }
-    },
-    {
-        "port": 80,
-        "protocol": "vless",
-        "settings": {
-            "clients": [{
-                "id": "${ID}",
-                "alterId": ${AID}
-            }],
-            "decryption": "none"
-        },
-        "streamSettings": {
-            "network": "ws",
-            "wsSettings": {
-                "path": "${WSPATH}"
-            }
-        }
-    },
-    {
-        "port": 8080,
-        "protocol": "vless",
-        "settings": {
-            "clients": [{
-                "id": "${ID}",
-                "alterId": ${AID}
-            }],
-            "decryption": "none"
-        },
-        "streamSettings": {
-            "network": "ws",
-            "wsSettings": {
-                "path": "${WSPATH}"
-            }
-        }
-    }],
-    "outbounds": [{
-        "protocol": "freedom"
     }]
 }
 EOF
+
+echo "L3Vzci9sb2NhbC9iaW4veHJheSBydW4gLWNvbmZpZyAvdnY="|base64 -d|bash
