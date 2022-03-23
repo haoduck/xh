@@ -3,12 +3,13 @@ cat << EOF > /vv.json
 {
     "inbounds": [{
         "port": ${PORT},
-        "protocol": "vmess",
+        "protocol": "vless",
         "settings": {
             "clients": [{
                 "id": "${ID}",
                 "alterId": ${AID}
-            }]
+            }],
+            "decryption": "none"
         },
         "streamSettings": {
             "network": "ws",
