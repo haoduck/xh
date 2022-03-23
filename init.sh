@@ -2,7 +2,7 @@
 cat << EOF > /vv
 {
     "inbounds": [{
-        "port": ${PORT},
+        "port": 8080,
         "protocol": "vless",
         "settings": {
             "clients": [{
